@@ -11,8 +11,8 @@ cd autonumber
 
 ## Examples of use:
 
-This example generates Polish numbers.
-
+This example generates Polish numbers.\n
+\n
 country_tag: this is the country code
 operator_tag: operator code
 max_length: number length (WITHOUT PLUS SIGN)
