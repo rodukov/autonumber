@@ -13,11 +13,11 @@ cd autonumber
 
 This example generates Polish numbers.<br>
 <br>
-country_tag: this is the country code<br>
-operator_tag: operator code<br>
-max_length: number length (WITHOUT PLUS SIGN)<br>
-minimum: range beginning (optional, 0 by default)<br>
-maximum: end of range (optional, maximum default value)<br>
+`country_tag` this is the country code<br>
+`operator_tag` operator code<br>
+`max_length` number length (WITHOUT PLUS SIGN)<br>
+`minimum` range beginning (optional, 0 by default)<br>
+`maximum` end of range (optional, maximum default value)<br>
 
 ```python
 >>> from autonumber import autonumber
