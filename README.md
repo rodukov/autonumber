@@ -3,7 +3,7 @@
 Useful utility that allows you to generate cell phone numbers of all countries of the world
 
 ## Installing
-## Via pypi(recommended)
+### Via pypi(recommended)
 `pip3 install autonumber` - Mac & Linux<br>
 `pip install autonumber` - Windows
 ### Via github
