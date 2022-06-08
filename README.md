@@ -22,7 +22,7 @@ cd autonumber
 | minimum | range beginning | yes, 0 by default |
 | maximum | end of range | yes, maximum default value by default |
 
-## Examples
+## Example
 This example generates Polish numbers.<br>
 ```python
 >>> from autonumber import autonumber
