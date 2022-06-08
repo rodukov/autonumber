@@ -15,7 +15,7 @@ cd autonumber
 ## Documentation
 ### Method `autonumber.load`
 | Command | Description | Optional |
-| --- | --- | --- |
+| --- | --- | :---: |
 | country_tag | This is the country code | no |
 | operator_tag | operator code | no 
 | max_length | number length, without plus sign | no |
