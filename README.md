@@ -2,23 +2,28 @@
 
 Useful utility that allows you to generate cell phone numbers of all countries of the world
 
-## Installing:
-
+## Installing
+## Via pypi(recommended)
+`pip3 install autonumber` - Mac & Linux<br>
+`pip install autonumber` - windows
+### Via github
 ```bash
 git clone https://github.com/rodukov/autonumber
 cd autonumber
 ```
 
-## Examples of use:
+## Documentation
+### Method `autonumber.load`
+| Command | Description |
+| --- | --- |
+| country_tag | This is the country code |
+| operator_tag | operator code |
+| max_length | number length (WITHOUT PLUS SIGN) |
+| minimum | range beginning (optional, 0 by default) |
+| maximum |end of range (optional, maximum default value) |
 
+## Examples
 This example generates Polish numbers.<br>
-<br>
-`country_tag` this is the country code<br>
-`operator_tag` operator code<br>
-`max_length` number length (WITHOUT PLUS SIGN)<br>
-`minimum` range beginning (optional, 0 by default)<br>
-`maximum` end of range (optional, maximum default value)<br>
-
 ```python
 >>> from autonumber import autonumber
 >>> numbers = autonumber.load(country_tag="48", operator_tag="532", max_length=11, minimum=0, maximum=25)
