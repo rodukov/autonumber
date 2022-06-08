@@ -14,13 +14,13 @@ cd autonumber
 
 ## Documentation
 ### Method `autonumber.load`
-| Command | Description |
-| --- | --- |
-| country_tag | This is the country code |
-| operator_tag | operator code |
-| max_length | number length (WITHOUT PLUS SIGN) |
-| minimum | range beginning (optional, 0 by default) |
-| maximum |end of range (optional, maximum default value) |
+| Command | Description | Optional |
+| --- | --- | --- |
+| country_tag | This is the country code | no |
+| operator_tag | operator code | no 
+| max_length | number length, without plus sign | no |
+| minimum | range beginning | yes, 0 by default |
+| maximum | end of range | yes, maximum default value by default |
 
 ## Examples
 This example generates Polish numbers.<br>
