@@ -1,4 +1,4 @@
-## Auto Number [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github/rodukov) [<img src="https://img.shields.io/badge/powerful-generator-FF3939"/>](https://github.com/rodukov)
+### Auto Number [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github/rodukov) [<img src="https://img.shields.io/badge/powerful-generator-FF3939"/>](https://github.com/rodukov)
 
 Useful utility that allows you to generate cell phone numbers of all countries of the world
 
